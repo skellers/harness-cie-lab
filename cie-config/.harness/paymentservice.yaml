@@ -33,7 +33,7 @@ pipeline:
                                     connectorRef: account.bootcampdockerhub
                                     image: nikpap/mvn-openjdk-8:harness
                                     language: Java
-                                    buildTool: Bazel
+                                    buildTool: Maven
                                     args: test
                                     packages: com.nikp
                                     runOnlySelectedTests: true
