@@ -62,6 +62,7 @@ pipeline:
                                         limits:
                                             memory: 1Gi
                                             cpu: "1"
+                                failureStrategies: []
                           - step:
                                 type: BuildAndPushDockerRegistry
                                 name: pushToDockerHub
